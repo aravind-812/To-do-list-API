@@ -17,11 +17,7 @@ app.get('/hello', (req, res) => {
     res.end("Task manager app")
 })
 
-// app.get('api/v1/tasks')
-// app.post('api/v1/tasks')
-// app.get('api/v1/tasks/:id')
-// app.patch('api/v1/tasks/:id')
-// app.delete('api/v1/tasks/:id')
+
 
 const start = async () => {
     try {
