@@ -13,12 +13,6 @@ app.use('/api/v1/tasks', tasks)
 
 
 
-app.get('/hello', (req, res) => {
-    res.end("Task manager app")
-})
-
-
-
 const start = async () => {
     try {
         await connectDB(process.env.MONGO_URI)
@@ -29,7 +23,7 @@ const start = async () => {
     }
 }
 
-start()
+start();
 
 
 
