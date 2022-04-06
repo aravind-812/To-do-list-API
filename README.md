@@ -38,8 +38,14 @@ Delete tasks by id:
 ```
 DELETE /api/v1/tasks/:id
 ```
-### Sample url for `GET` request:
+### Sample url for `GET` request (Displays all tasks):
 Gets all the tasks:
 ```
 GET /api/v1/tasks/
 ```
+### Sample url to `GET` a specific task:
+Gets a specific task:
+```
+GET /api/v1/tasks/:id
+```
+
