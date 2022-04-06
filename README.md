@@ -10,7 +10,7 @@ The following languages, frameworks, APIs, and services were used to create the 
 - MongoDB (Hosted on AWS)
 - Heroku (PaaS Hosting) -- `Pending`
 
-## Installation 
+## Steps to run  
 1. Clone the repo
 3. `npm install`
 4. setup `.env` and set `MONGO_URI` variable equal to DB connection string.
