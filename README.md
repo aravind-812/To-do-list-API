@@ -29,7 +29,7 @@ All API requests are made by sending a secure HTTPS request using one of the fol
 ### Sample `POST/PATCH` request:
 ```
 {
-"name":"Refactor API code"
+"name":"Refactor API code",
 "completed":false (by default false)
 }
 ```
