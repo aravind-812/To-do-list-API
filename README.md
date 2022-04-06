@@ -19,10 +19,10 @@ The following languages, frameworks, APIs, and services were used to create the 
 
 All API requests are made by sending a secure HTTPS request using one of the following methods, depending on the action being taken:
 
-- POST Create a new task
-- PATCH Update a task
-- GET Get a task or list of tasks
-- DELETE Delete a task
+- `POST` Create a new task
+- `PATCH` Update a task
+- `GET` Get's a task or list of tasks
+- `DELETE` Delete a task
 
 
 ### Sample `POST/PATCH` request:
