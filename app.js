@@ -7,10 +7,10 @@ require('dotenv').config()
 
 //Middleware setup
 app.use(express.json());
+app.use(express.static('./public'))
 
 //Routes
 app.use('/api/v1/tasks', tasks)
-
 
 
 const start = async () => {
