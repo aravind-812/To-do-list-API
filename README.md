@@ -13,7 +13,7 @@ The following languages, frameworks, APIs, and services were used to create the 
 ## Steps to run:
 1. Clone the repo
 3. `npm install`
-4. setup `.env` and set `MONGO_URI` variable equal to DB connection string.
+4. setup `.env` and set `MONGO_URL` variable equal to DB connection string.
 5. `npm start`
 
 ## HTTP requests:
